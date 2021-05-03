@@ -1,14 +1,14 @@
 $(function () {
     autoplay();
 });
-var disableAutoPlay = true;
+var disableAutoPlay = false;
 var enableAutoplay = true;
 var autoplay = function () {
     setTimeout(function () {
         if (enableAutoplay && !disableAutoPlay) {
             nextSlide(autoplay);
         }
-    }, 10000);
+    }, 3500);
 };
 
 function nextSlide(cb) {
