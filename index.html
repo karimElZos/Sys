@@ -1,0 +1,1108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Home Page - Zoser </title>
+    <meta name="description" content="Zoser Content" />
+    <meta name="og:description" content="Zoser Content" />
+    <meta name="keywords" content="Zoser Keyword" />
+<meta property="og:title" content="Home Page - Zoser" />
+  <meta name="og:type" content="website">
+
+
+
+    <link
+      rel="stylesheet"
+      href="lib/lightgallery/dist/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="lib/swiper/dist/css/swiper.min.css" />
+    <link rel="stylesheet" href="lib/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="css/en/magnific-popup.css" />
+    <link rel="stylesheet" href="css/en/demo.css" />
+    <link rel="stylesheet" href="css/en/component.css" />
+    <link rel="stylesheet" href="lib/dropzone/dist/dropzone.css" />
+    <link rel="stylesheet" href="css/en/animations1.css" />
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/en/style.min.css" />
+    <link rel="stylesheet" href="css/en/NewStyle.css" />
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/dropzone/dist/dropzone.min.js"></script>
+
+</head>
+<body class="grid-loaded">
+    <div class="overlayMenu" style="display:none"></div>
+    <div class="formOverlay"></div>
+    <!-- ribbon -->
+    
+<div class="forkit-curtain get-aquote d-print-none" style="overflow-x:hidden;">
+    <div class="close-button"></div>
+    <div class="container">
+        <form class="row align-items-center d-flex align-items-center" data-ajax="true" data-ajax-method="POST" data-ajax-success="onQouteSuccess" action="/en/Home/Qoute" method="post">
+            
+            <div class="col-12 text-center">
+                <h1 class="mb-3 text-light pacifico">Get a Quote</h1>
+                <h6 class="text-muted mb-5">It's free, Tell us more about your project.</h6>
+            </div>
+            <div class="col-lg-6">
+                <div id="QouteMSGSU" class="alert alert-success text-center font-weight-bold d-none">Saved successfully !</div>
+                <div id="QouteMSGDN" class="alert alert-danger text-center font-weight-bold d-none">Something wrong happened !</div>
+                <input placeholder="Full Name" type="text" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Name" maxlength="255" name="Name" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+
+                <input placeholder="Email Address" type="email" data-val="true" data-val-email="Enter a valid e-mail address" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Email" maxlength="255" name="Email" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+
+                <input placeholder="Mobile Number" type="tel" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Mobile" maxlength="255" name="Mobile" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Mobile" data-valmsg-replace="true"></span>
+
+                <select id="select-items" class="select" data-val="true" data-val-required="The Service field is required." name="ServiceCategoryId"><option value="7">Cloud Solutions</option>
+<option value="1">Software Development</option>
+<option value="2">Website Solution</option>
+<option value="3">Mobile Applications</option>
+<option value="5">Graphic Design</option>
+</select>
+                <textarea placeholder="Project Description" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" id="Message" maxlength="255" name="Message">
+</textarea>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+
+                <button class="my-btn" type="submit">
+                    Send
+                    <i class="bg_arrow"></i>
+                </button>
+            </div>
+            <!--1-->
+            <div class="col-lg-6 text-right d-lg-block d-none ">
+                <img src="images/common/getaqoute.png" class="img-fluid" alt="">
+            </div>
+            <!--1-->
+        <!-- <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DCpss6cZ_JOshxUXXQEVlqCNyqWGDoMSW3f7Zpo_4A0KC44x9xI1NvccMFhv6n85D9Tfv0xiJSGmAWrF1cvBe32Y8B760byB3yoB6a-wPWoDxhB81aGVOHICXIGahf9a0sU0hB2SGdkFhINAXMJWSc" /></form> -->
+    </div>
+
+</div>
+    <!-- ribbon End-->
+
+    <div class="go-top  animated zoomIn" id="toTop">
+        <a class="wpc-go-home"></a>
+    </div>
+
+
+
+    <div class="top-header clearfix spark-nav">
+        <div id="nav-icon1" class="menu-icon-color">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu list-unstyled cl-effect-1">
+
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/About.html">About Us</a>
+            </li>
+
+            <li>
+                <a class="nav-link" href="en/Services.html">Services</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Portfolio.html">Portfolio </a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/CaseStudies.html">Case Studies </a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Clients.html">Our Clients</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Partners.html">Our Partners</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Testimonials.html">Testimonials</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Blogs.html">Blog</a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Career.html">Career </a>
+            </li>
+            <li>
+                <a class="nav-link" href="en/Contact.html">Contact Us</a>
+            </li>
+
+            <li class="arabic">
+                <a class="nav-link" href="ar.html">عربي </a>
+            </li>
+            <li>
+                <a class="nav-link" href="javascript:void(0)" class="sm-q">Get a Quote</a>
+            </li>
+
+        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light yamm" id="slide-nav">
+            <a class="navbar-brand" href="/index.html">
+
+                <div class="logo-white">
+            <div class="logo-color">
+              <img src="images/common/zoserpng_adobespark.png?w=350&h=75"
+                alt="Zoser Logo"
+              />
+            </div>
+            <img src="images/common/zoserpng_adobespark.png?w=350&h=75"
+              alt="Zoser Logo"
+            />
+          </div>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav  arrow-fix-top cl-effect-1 w-100" id="demo-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/About.html">About Us</a>
+                    </li>
+
+                    <li class="dropdown yamm-fw nav-item arrow-down ">
+                        <a class="nav-link" href="en/Services.html">  Services  </a>
+                            <ul class="dropdown-menu animated fadeInDown">
+                                <li class="grid-menu">
+                                    <div class="row">
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/cloud-solutions.html">Cloud Solutions</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Services/cloud-migration-consultation.html">Cloud Migration &amp; Consultation</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/devops-services.html">DevOps Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/bussiness-automation-intelligence.html">Business Automation &amp; Intelligence</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/disaster-recovery.html">Disaster Recovery</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/software-development.html">Software Development</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a  href="en/Services/ticketing-solutions.html">Ticketing Solutions</a>
+                                                        </li>
+                                                        <li>
+                                                            <a  href="en/Services/school-management-system.html">School Management System</a>
+                                                        </li>
+                                                        <li>
+                                                            <a  href="en/Services/custom-software.html">Custom Software</a>
+                                                        </li>
+                                                        <li>
+                                                            <a  href="en/Services/system-integration.html">System Integration</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img src="uploads/images/bb.png" class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/website-solution.html">Website Solution</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Services/services-websites.html">Services Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/products-websites.html">Products Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/ecommerce-websites.html">Ecommerce Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/custom-websites.html">Custom Websites</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/mobile-applications.html">Mobile Applications</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Services/services-applications.html">Services Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/products-applications.html">Products Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/ecommerce-applications.html">Ecommerce Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/custom-applications.html">Custom Applications</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/graphic-design.html">Graphic Design</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Services/logo-designs.html">Logo Designs</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/corporate-stationery.html">Corporate Stationery</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/printing-designs.html">Printing Designs</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Services/infographics.html">Infographics</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                    </li>
+                    <li class="dropdown  nav-item arrow-down">
+                        <a class="nav-link" href="en/Portfolio.html">Showcases </a>
+
+                        <ul class="dropdown-menu animated fadeInDown">
+                            <li class="">
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>
+                                                <b><a  href="javascript:void(0);">Showcases</a></b>
+                                            </li>
+                                            <li>
+                                                <a  href="en/Portfolio.html">Latest work</a>
+                                            </li>
+                                            <li>
+                                                <a  href="en/CaseStudies.html">Case Studies</a>
+                                            </li>
+                                            <li>
+                                                <a  href="en/Clients.html">Our Clients</a>
+                                            </li>
+                                            <li>
+                                                <a  href="en/Partners.html">Our Partners</a>
+                                            </li>
+                                            <li>
+                                                <a  href="en/Testimonials.html">Testimonials</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/Blogs.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"  href="en/Career.html">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"   href="en/Contact.html">Contact Us</a>
+                    </li>
+
+
+                    <li class="nav-item arabic">
+                        <a  class="nav-link"  href="ar.html">عربي </a>
+                    </li>
+                    <li class="nav-item  ml-auto">
+                        <a href="javascript:void(0)" data-text-detached="Drag down >" class="nav-link show_qouta get_a_qouta ">Get a Quote</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+    </div>
+
+    
+<div id="wrap">
+    <div class="home">
+        <!-- My Header Goes Here -->
+        <div class="my-section header" id="Spark">
+            <!-- My top Menu Goes Here -->
+            <!-- My slider Goes Here -->
+            <div class="slider__warpper clearfix">
+                <div class="flex__container flex--pikachu flex--active" data-slide="1">
+                    <div class="flex__item flex__item--left">
+                        <div class="flex__content">
+                            <span class="text--sub fit-text">we are</span>
+                            <h1 class="text--big">Creative</h1>
+                        </div>
+                        <p class="text__background">Creative</p>
+                    </div>
+                    <div class="flex__item flex__item--right"></div>
+                    <img class="pokemon__img pic1 " src="images/common/creative.png?w=750&h=827" />
+                </div>
+                <div class="flex__container flex--piplup animate--start" data-slide="2">
+                    <div class="flex__item flex__item--left">
+                        <div class="flex__content">
+                            <p class="text--sub ">tuning new</p>
+                            <h1 class="text--big">Trends</h1>
+                        </div>
+                        <p class="text__background">Trends</p>
+                    </div>
+                    <div class="flex__item flex__item--right"></div>
+                    <img class="pokemon__img pic2" src="images/common/trends.png?w=750&h=827" />
+                </div>
+                <div class="flex__container flex--blaziken animate--start" data-slide="3">
+                    <div class="flex__item flex__item--left">
+                        <div class="flex__content">
+                            <p class="text--sub">
+                                we
+                                <br /> understand your
+                            </p>
+                            <h1 class="text--big">Identity</h1>
+                        </div>
+                        <p class="text__background">Identity</p>
+                    </div>
+                    <div class="flex__item flex__item--right"></div>
+                    <img class="pokemon__img pic3" src="images/common/identity.png?w=750&h=827" />
+                </div>
+                <div class="flex__container flex--dialga animate--start" data-slide="4">
+                    <div class="flex__item flex__item--left">
+                        <div class="flex__content">
+                            <p class="text--sub">we make it</p>
+                            <h1 class="text--big">Personal</h1>
+                        </div>
+                        <p class="text__background">Personal</p>
+                    </div>
+                    <div class="flex__item flex__item--right"></div>
+                    <img class="pokemon__img pic4" src="images/common/personal.png?w=750&h=827" />
+                </div>
+                <div class="flex__container flex--zekrom animate--start" data-slide="5">
+                    <div class="flex__item flex__item--left">
+                        <div class="flex__content">
+                            <p class="text--sub">
+                                and
+                                <br />always deliver in
+                            </p>
+                            <h1 class="text--big">Style</h1>
+                        </div>
+                        <p class="text__background">Style</p>
+                    </div>
+                    <div class="flex__item flex__item--right"></div>
+                    <img class="pokemon__img pic5" src="images/common/style.png?w=750&h=827" />
+                </div>
+            </div>
+            <div class="slider__navi">
+                <a href="#" class="slide-nav active" data-slide="1">Creative</a>
+                <a href="#" class="slide-nav" data-slide="2">Trends</a>
+                <a href="#" class="slide-nav" data-slide="3">Identity</a>
+                <a href="#" class="slide-nav" data-slide="4">Personal</a>
+                <a href="#" class="slide-nav" data-slide="5">Style</a>
+            </div>
+            <!-- slider End -->
+        </div>
+        <!-- Header End -->
+        <!--start about-->
+        <div id="About" class="section my-section about white auto-height">
+            <span class="promo_text d-lg-block d-none">Creati</span>
+            <span class="promo_text2 d-lg-block d-none">bout</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 order-lg-1 order-2">
+                        <div class="text-about">
+                            <h2 class="title text-lg-left text-center">
+                                We Are
+                                <span>Creative</span>
+                            </h2>
+                            <p>We are a leading development company founded in Egypt in 2020. Zoser creates an innovative, creative, and effective custom-made solution in Mobile applications, Web-based Applications, and Websites that meet client needs, capture the brand, support companies&#39; goals, and maximize the revenue.<br><br>We are also an official partner of cloud services provider leaders like Amazon AWS and Microsoft Azure, which allow us to provide professional solutions architects for clients&#39; projects and managing them with enterprise support.<br><br>We aim to deliver creative, easy-to-use, and secure custom-made solutions using the latest trends, personalize branding identity, modern development tools, and guaranteed leading cloud services.</p>
+                        </div>
+                    </div>
+                    <!--1-->
+                    <div class="col-lg-6 text-right order-lg-2 order-1">
+                        <div class="cont-image">
+                            <img src="uploads/images/cc.jpg?w=525&h=600&quality=80&format=jpg" class="img-fluid d-lg-inline-block d-block mx-auto" alt="" />
+
+                        </div>
+                    </div>
+                    <!--1-->
+                </div>
+            </div>
+        </div>
+        <!--start services-->
+
+        <div id="Serivces" class="section my-section services auto-height" style="background:url(images/common/services.jpg)no-repeat center center">
+            <span class="promo_text d-lg-block d-none">ervices</span>
+            <div class="dark-section"></div>
+            <div class="container big-container">
+                <div class="cont-services float-left">
+                    <div class="text-about">
+                        <h2 class="title text-lg-left text-center">
+                            our
+                            <span>Services</span>
+                        </h2>
+                        <p>
+                            <p style="text-align: justify;">We know that when it comes to our services, our customers need stunning, innovative results without a hefty price tag. That&#39;s why we offer every client an exceptional service that&#39;s tailored to their specific needs. Our aim is to offer an affordable solution to your needs, without ever compromising on the quality of the service you receive.</p>
+
+                        </p>
+                    </div>
+                </div>
+                <!--1-->
+                <div class="all-services float-left  swiper-container   swiper-services">
+                    <div class="row slick-wrapper ">
+                        <!--1-->
+                            <div class="col-lg-12 my-3 s">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <a href="en/Services/cloud-solutions">
+                                            <img src="uploads/files/dd.svg" class="svg svg-convert" />
+                                            <h4 class="card-title mb-1 font-weight-bold">Cloud Solutions</h4>
+                                            <p class="card-text">
+                                                To transform your business into a cognitive enterprise. Intelligent workflows can help modernize your legacy systems and make your business run more efficiently. Our business process services utilize artificial intelligence, automation and the Internet of Things (IoT) to create custom workflows.
+                                            </p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 my-3 s">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <a href="en/Services/software-development">
+                                            <img src="uploads/files/ff.svg" class="svg svg-convert" />
+                                            <h4 class="card-title mb-1 font-weight-bold">Software Development</h4>
+                                            <p class="card-text">
+                                                As we are more Full Of experience in the market, Zoser has successfully completed various projects in many sectors successfully. We are professional in accounting systems, learning management solution, ticketing solution and on demand applications.
+                                            </p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 my-3 s">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <a href="en/Services/website-solution">
+                                            <img src="uploads/files/nn.svg" class="svg svg-convert" />
+                                            <h4 class="card-title mb-1 font-weight-bold">Website Solution</h4>
+                                            <p class="card-text">
+                                                We provide several web solutions that fit all types of business needs and qualify to build a trusted relationships with hundreds of consumers. We believe that, a great website is more than attractive graphics. Great website is a smart investment that can help you bring new customers.
+                                            </p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 my-3 s">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <a href="en/Services/mobile-applications">
+                                            <img src="uploads/files/ee.svg" class="svg svg-convert" />
+                                            <h4 class="card-title mb-1 font-weight-bold">Mobile Applications</h4>
+                                            <p class="card-text">
+                                                Our highly skilled team consists of dedicated mobile application developers who will deliver an efficient, mobile solution to meet your business and technology needs. Zoser has considerable experience in designing and building custom mobile application solutions.
+                                            </p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+
+                </div>
+                <!--1-->
+            </div>
+        </div>
+        <!--start works d-lg-block d-none-->
+
+        <div id="Portfolio" class="section my-section auto-height works  white ">
+            <span class="promo_text d-lg-block d-none">Orks</span>
+            <div class="container big-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-about">
+                            <h2 class="title text-lg-left text-center">
+                                Our
+                                <span> Portfolio</span>
+                            </h2>
+
+                            <ul class="our_work  float-left">
+                                <li>
+                                    <a class="active" href="en/Portfolio.html">Show All</a>
+                                </li>
+
+                                    <li>
+                                        <a href="en/Services/website-solution.html">Website solutions </a>
+                                    </li>
+                                    <li>
+                                        <a href="en/Services/mobile-applications.html">Mobile Applications </a>
+                                    </li>
+                                    <li>
+                                        <a href="en/Services/software-development.html">Software Development </a>
+                                    </li>
+                                    <li>
+                                        <a href="en/Services/graphic-design.html">Graphic Design </a>
+                                    </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--1-->
+            <div class="container-fluid   no-gutters">
+                <div class="slick-wrapper">
+                        <div>
+                            <figure style="background:url(uploads/images/tt.jpg)no-repeat" class="snip1242 img-work">
+                                <figcaption>
+                                    <img src="uploads/files/ss.svg" class="svg svg-convert" />
+                                    <h4>Website solutions</h4>
+                                </figcaption>
+                                <a href="en/Services/website-solution.html"></a>
+                            </figure>
+
+                        </div>
+                        <div>
+                            <figure style="background:url(uploads/images/yy.jpg)no-repeat" class="snip1242 img-work">
+                                <figcaption>
+                                    <img src="uploads/files/qq.svg" class="svg svg-convert" />
+                                    <h4>Mobile Applications</h4>
+                                </figcaption>
+                                <a href="en/Services/mobile-applications.html"></a>
+                            </figure>
+
+                        </div>
+                        <div>
+                            <figure style="background:url(uploads/images/uu.jpg)no-repeat" class="snip1242 img-work">
+                                <figcaption>
+                                    <img src="uploads/files/ww.svg" class="svg svg-convert" />
+                                    <h4>Software Development</h4>
+                                </figcaption>
+                                <a href="en/Services/software-development.html"></a>
+                            </figure>
+
+                        </div>
+                        <div>
+                            <figure style="background:url(uploads/images/ii.jpg)no-repeat" class="snip1242 img-work">
+                                <figcaption>
+                                    <img src="uploads/files/rr.svg" class="svg svg-convert" />
+                                    <h4>Graphic Design</h4>
+                                </figcaption>
+                                <a href="en/Services/graphic-design.html"></a>
+                            </figure>
+
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--start clients-->
+        <div id="Clients" class="section my-section clients services auto-height" style="background:url(images/common/bc-client.jpg)no-repeat center center">
+            <span class="promo_text d-lg-block d-none">lients</span>
+
+            <div class="dark-section"></div>
+            <div class="container big-container ">
+                <div class="cont-services float-left">
+                    <div class="text-about">
+                        <h2 class="title text-lg-left text-center">
+                            our
+                            <span>CLIENTS</span>
+                        </h2>
+                        <p style="text-align: justify;">We have vast experience in working with various industries, from non profits and government contractors to investment firms and manufacturing throughout the middle east.</p><p style="text-align: justify;"><br></p>
+                    </div>
+                </div>
+                <!--1-->
+                <div class="all-services float-left">
+                    <div class="client-logo">
+                        <div class="slick-wrapper">
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/oo.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>efinance</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/pp.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Saudi Tickets</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/ll.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>MAJID AL FUTTAIM</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/kk.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>MARS</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/jj.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Silicon 21</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/hh.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Dallah Albaraka</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/gg.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>L&#x27;AZURDE</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/mm.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>TOYOTA</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/vv.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Abdul Latif Jameel</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/xx.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Sela Sport</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/zz.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>DEDI</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/11.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>OASIS</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/22.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>TECH VALLEY</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/33.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>ate18</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/44.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>SKI EGYPT</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/55.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>MAGIC PLANET</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/66.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>VOX CINEMA</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/77.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>ENTAG</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/88.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>ECARU</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/99.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Al Hayat Group</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/10.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>SPINE</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/20.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>SEHET AHL EL KUWAIT</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/30.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>ZAWAYA</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/40.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>BTICKET</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/50.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>DYNAMIC</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/60.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>ELECTRONICA</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/70.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>MEQYAS</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/80.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>CAI MED Clinics</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/90.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>Diag Store</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                                <div class="slick-slide">
+                                    <figure class="snip1242">
+                                        <img src="uploads/images/100.png?w=255&h=255&mode=pad&bgcolor=white&quality=100&format=jpg&scale=both" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h4>REPALL</h4>
+                                        </figcaption>
+                                        <a target="_blank"></a>
+                                    </figure>
+                                </div>
+                        </div>
+                    </div>
+                    <!--1-->
+                </div>
+            </div>
+        </div>
+        <!--start blog -->
+        <div id="Blog" class="section my-section blog-spark  services auto-height white">
+
+            <span class="promo_text d-lg-block d-none">opics</span>
+
+            <div class="container big-container">
+                <div class="cont-services float-left">
+                    <div class="text-about">
+                        <h2 class="title text-lg-left text-center">
+                            our
+                            <span>blog</span>
+                        </h2>
+                        
+
+                        <a class="blog-link" href="en/Blogs.html">view all blog</a>
+                    </div>
+                </div>
+                <!--1-->
+                <div class="all-services float-left">
+                    <div class="col-lg-121">
+                        <div class="row">
+                                    <a class="col-12 d-block" href="en/Services/CaseStudies/ticketmx-case-study.html">
+                                        <div class="row no-gutters ">
+                                            <div class="col-md-6 order-2 order-md-1">
+                                                <div class="txt-blog d-md-flex align-items-md-center">
+                                                    <small class="d-block text-left w-100">06 October 2020</small>
+                                                    <h4>Zoser  are AWS Consulting Select Partner</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 order-1 order-md-2">
+                                                <img src="uploads/images/200.jpg?w=375&h=279&mode=crop&quality=80&format=jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="col-12 d-block" href="en/Services/CaseStudies/saudi-tickets-case-study.html">
+                                        <div class="row no-gutters ">
+                                            <div class="col-md-6">
+                                                <img src="uploads/images/300.jpg?w=375&h=279&mode=crop&quality=80&format=jpg" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-6 second-blog">
+                                                <div class="txt-blog d-block  d-md-flex align-items-md-center">
+                                                    <small class="d-block text-left w-100">01 September 2019</small>
+                                                    <h4>
+                                                        Saudi Tickets Case Study
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                            <!--1-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="section my-section services auto-height " id="Contacts" style="background:url(images/common/bc-footer.jpg)no-repeat center center">
+
+            <span class="promo_text d-lg-block d-none">ONTACTS</span>
+            <div class="dark-section"></div>
+            <div class="container big-container white">
+                <div class="cont-services float-left"><div class="text-about"><h2 class="title text-lg-left">GET IN <span>TOUCH</span></h2><ul class="contact-info"><li><span class="mb-0"> Branchs:</span><p class="mb-0"><a href="#" rel="noopener noreferrer" target="_blank">Villa 1 Branch, Cairo, Egypt</a></p><table style="width: 100%;"><tbody><tr><td style="width: 1.0000%;"><strong><span class="text-white mb-0">Mobile:</span></strong></td><td style="width: 99.0000%;">&nbsp; <a href="tel:000000000" rel="noopener noreferrer" target="_blank">+20 (11) 000000</a></td></tr><tr><td style="width: 1.0000%;"><strong><span class="text-white mb-0">Tel:</span></strong></td><td style="width: 99.0000%;">&nbsp; <a href="tel:0000000" rel="noopener noreferrer" target="_blank">+20 (2) 2000000002</a><br></td></tr></tbody></table></li><li><br></li><li><span class="mb-0">Another Branch:</span><p class="mb-0"><a href="#" target="_blank">Villa 99 Branch Giza, Egypt</a></p><table style="width: 100%;"><tbody><tr><td style="width: 1.0000%;"><strong><span class="text-white mb-0">Mobile:</span></strong></td><td style="width: 99.0000%;"><a href="tel:0000000000000" rel="noopener noreferrer" target="_blank">&nbsp; +20 (11) 0000000000</a></td></tr><tr><td style="width: 1.0000%;"><strong><span class="text-white mb-0">Tel:</span></strong></td><td style="width: 99.0000%;"><a href="tel:0000000000000" rel="noopener noreferrer" target="_blank">&nbsp; +20 (2)000000</a><br></td></tr></tbody></table></li><li><br></li><li><span class="mb-0">Email:</span><p class="mb-0"><a href="#">Your Email</a></p></li></ul></div></div>
+                <!--1-->
+                
+<div class="all-services float-left">
+
+    <div id="FeedbackMSGSU" class="alert alert-success text-center font-weight-bold d-none">Saved successfully !</div>
+    <div id="FeedbackMSGDN" class="alert alert-danger text-center font-weight-bold d-none">Something wrong happened !</div>
+    <form data-ajax="true" data-ajax-method="POST" data-ajax-success="onFeedbackSuccess" method="post" action="/en/Home/Feedback">
+        <div class="feedback">
+            <input placeholder="Name" type="text" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="ClientName" maxlength="255" name="ClientName" value="">
+            <span class="text-danger field-validation-valid" data-valmsg-for="ClientName" data-valmsg-replace="true"></span>
+            <input placeholder="Email Address" type="text" data-val="true" data-val-email="Enter a valid e-mail address" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="ClientEmail" maxlength="255" name="ClientEmail" value="">
+            <span class="text-danger field-validation-valid" data-valmsg-for="ClientEmail" data-valmsg-replace="true"></span>
+            <input placeholder="Mobile" type="text" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" id="ClientMobile" maxlength="255" name="ClientMobile" value="">
+            <span class="text-danger field-validation-valid" data-valmsg-for="ClientMobile" data-valmsg-replace="true"></span>
+            <input placeholder="Subject" type="text" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="ClientSubject" maxlength="255" name="ClientSubject" value="">
+            <span class="text-danger field-validation-valid" data-valmsg-for="ClientSubject" data-valmsg-replace="true"></span>
+            <textarea placeholder="Message" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="ClientMessage" maxlength="255" name="ClientMessage">
+</textarea>
+            <span class="text-danger field-validation-valid" data-valmsg-for="ClientMessage" data-valmsg-replace="true"></span>
+            <div class="form-group col-12 text-white small recaptcha">
+                <input type="hidden" id="g-recaptcha-response2" name="g-recaptcha-response">
+                This site is protected by reCAPTCHA and the Google
+                <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+                <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+            </div>
+        </div>
+
+        <button>
+            Send
+            <i class="bg_arrow"></i>
+        </button>
+        
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DCpss6cZ_JOshxUXXQEVlqCNyqWGDoMSW3f7Zpo_4A0KC44x9xI1NvccMFhv6n85D9Tfv0xiJSGmAWrF1cvBe32Y8B760byB3yoB6a-wPWoDxhB81aGVOHICXIGahf9a0sU0hB2SGdkFhINAXMJWSc" /></form>
+</div>
+
+                <!--1-->
+                    <div class="social-media">
+                            <a href="https://www.instagram.com" target="_blank"><img src="images/common/instagram.svg" class="local" alt="Alternate Text" /></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="images/common/linkdin.svg" class="local" alt="Alternate Text" /></a>
+                            <a href="https://twitter.com" target="_blank"> <img src="images/common/twitter.svg" class="local" alt="Alternate Text" /></a>
+                            <a href="https://www.facebook.com" target="_blank"><img src="images/common/facebook.svg" class="local" alt="Alternate Text" /></a>
+
+                    </div>
+            </div>
+            <div class="container container-footer">
+                <hr class="m-0" />
+                <p class="my-2">© 2020 - 2020 Zoser. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Start Add a custom JS -->
+
+<!--End  Add a custom JS -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.5/dist/loadingoverlay.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfFsKgUAAAAAB7w3IGQ4tXsIi2xbHS9M_yYMVNj"></script>
+
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="lib/popper.js/dist/umd/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="lib/Microsoft.jQuery.Unobtrusive.Ajax/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="lib/holderjs/holder.js"></script>
+    <script src="lib/theia-sticky-sidebar/dist/theia-sticky-sidebar.min.js"></script>
+    <script src="lib/swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="lib/lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="lib/css3-animate-it/js/css3-animate-it.js"></script>
+    <script src="lib/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+    <script src="js/forkit.js"></script>
+    <script src="lib/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="lib/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/dynamics.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/jquery.unveil.js"></script>
+    <script src="lib/slick-1.8.1/slick/slick.js"></script>
+    <script src="lib/masonry/masonry.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/site.js"></script>
+
+    
+    <script src="js/slider.js"></script>
+
+
+
+
+
+
+
+    <script src="lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+</body>
+</html>

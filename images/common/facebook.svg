@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_3101" data-name="Ellipse 3101" cx="15" cy="15" r="15" transform="translate(1352 5951)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" transform="translate(-1352 -5951)" clip-path="url(#clip-path)">
+    <path id="facebook-2" data-name="facebook" d="M30,15A15,15,0,1,0,15,30c.088,0,.176,0,.264-.006V18.322H12.041V14.566h3.223V11.8c0-3.205,1.957-4.951,4.816-4.951A26.178,26.178,0,0,1,22.969,7v3.352H21c-1.553,0-1.857.738-1.857,1.822v2.391h3.721l-.486,3.756H19.143v11.1A15,15,0,0,0,30,15Z" transform="translate(1352 5951)" fill="#fff"/>
+  </g>
+</svg>

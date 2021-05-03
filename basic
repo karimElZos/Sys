@@ -1,0 +1,491 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/images/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Custom Websites - Zoser </title>
+    <meta name="description" content="Zoser" />
+    <meta name="og:description" content="Zoser" />
+    <meta name="keywords" content="Zoser" />
+<meta property="og:title" content="Custom Websites - Zoser" />
+    <meta property="og:image" content="Zoser" />
+    <meta name="twitter:image" content="Zoser">
+    <meta property="og:description" content="Zoser" />
+<meta name="og:type" content="website">
+
+<!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35451510-1"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'UA-35451510-1'); </script><!--Start of Tawk.to Script--> <script type="text/javascript"> var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/5c9a7c466bba460528ffbda2/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })(); </script> <!--End of Tawk.to Script-->
+
+<!-- Global site tag (gtag.js) - Google Ads: 605435665 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-605435665"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-605435665');
+</script>
+
+
+
+    <link
+      rel="stylesheet"
+      href="lib/lightgallery/dist/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="css/ar/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/swiper/dist/css/swiper.min.css" />
+    <link rel="stylesheet" href="lib/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="css/en/magnific-popup.css" />
+    <link rel="stylesheet" href="css/en/demo.css" />
+    <link rel="stylesheet" href="css/en/component.css" />
+    <link rel="stylesheet" href="lib/dropzone/dist/dropzone.css" />
+    <link rel="stylesheet" href="css/en/animations1.css" />
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/en/style.min.css" />
+    <link rel="stylesheet" href="css/en/NewStyle.css" />
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/dropzone/dist/dropzone.min.js"></script>
+  
+
+</head>
+<body class="grid-loaded">
+    <div class="overlayMenu" style="display:none"></div>
+    <div class="formOverlay"></div>
+    <!-- ribbon -->
+    
+<div class="forkit-curtain get-aquote d-print-none" style="overflow-x:hidden;">
+    <div class="close-button"></div>
+    <div class="container">
+        <form class="row align-items-center d-flex align-items-center" data-ajax="true" data-ajax-method="POST" data-ajax-success="onQouteSuccess" action="/en/Home/Qoute" method="post">
+            
+            <div class="col-12 text-center">
+                <h1 class="mb-3 text-light pacifico">Get a Quote</h1>
+                <h6 class="text-muted mb-5">It's free, Tell us more about your project.</h6>
+            </div>
+            <div class="col-lg-6">
+                <div id="QouteMSGSU" class="alert alert-success text-center font-weight-bold d-none">Saved successfully !</div>
+                <div id="QouteMSGDN" class="alert alert-danger text-center font-weight-bold d-none">Something wrong happened !</div>
+                <input placeholder="Full Name" type="text" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Name" maxlength="255" name="Name" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+
+                <input placeholder="Email Address" type="email" data-val="true" data-val-email="Enter a valid e-mail address" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Email" maxlength="255" name="Email" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+
+                <input placeholder="Mobile Number" type="tel" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" data-val-required="*" id="Mobile" maxlength="255" name="Mobile" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Mobile" data-valmsg-replace="true"></span>
+
+                <select id="select-items" class="select" data-val="true" data-val-required="The Service field is required." name="ServiceCategoryId"><option value="7">Cloud Solutions</option>
+<option value="1">Software Development</option>
+<option value="2">Website Solution</option>
+<option value="3">Mobile Applications</option>
+<option value="5">Graphic Design</option>
+</select>
+                <textarea placeholder="Project Description" data-val="true" data-val-maxlength="Maximum characters is 255 character" data-val-maxlength-max="255" id="Message" maxlength="255" name="Message">
+</textarea>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+                <div class="form-group col-12 small recaptcha">
+                    
+<input id="g-recaptcha-response" name="g-recaptcha-response" type="hidden" value="" />
+<script>
+	if (typeof grecaptcha !== 'undefined') {
+		grecaptcha.ready(function () {
+			grecaptcha.execute('6LfFsKgUAAAAAB7w3IGQ4tXsIi2xbHS9M_yYMVNj', { 'action': 'homepage' }).then(function (token) {
+				document.getElementById('g-recaptcha-response').value = token;
+			});
+		});
+	}
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfFsKgUAAAAAB7w3IGQ4tXsIi2xbHS9M_yYMVNj"></script>
+
+                    This site is protected by reCAPTCHA and the Google
+                    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                </div>
+
+                <button class="my-btn" type="submit">
+                    Send
+                    <i class="bg_arrow"></i>
+                </button>
+            </div>
+            <!--1-->
+            <div class="col-lg-6 text-right d-lg-block d-none ">
+                <img src="images/common/getaqoute.png" class="img-fluid" alt="">
+            </div>
+            <!--1-->
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8DCpss6cZ_JOshxUXXQEVlqNMikIO-ag7k1ZSUlRbt1mzREWJlpb-6Hgtovd3ql-gTBHJibwr8QEJ5SbluY18ifgZDBpiwOR89Vdz6DCkvVf24GCLvc4Y9uAg1uTmW9Eoy2citjHvuPb7b-H_VK3BQc" /></form>
+    </div>
+
+</div>
+    <!-- ribbon End-->
+
+    <div class="go-top  animated zoomIn" id="toTop">
+        <a class="wpc-go-home"></a>
+    </div>
+
+
+
+    <div class="top-header clearfix spark-nav">
+        <div id="nav-icon1" class="menu-icon-color">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu list-unstyled cl-effect-1">
+
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="en/About">About Us</a>
+            </li>
+
+            <li>
+                <a href="en/Services">Services</a>
+            </li>
+            <li>
+                <a href="en/Portfolio">Portfolio </a>
+            </li>
+            <li>
+                <a href="en/CaseStudies">Case Studies </a>
+            </li>
+            <li>
+                <a href="en/Clients">Our Clients</a>
+            </li>
+            <li>
+                <a href="en/Partners">Our Partners</a>
+            </li>
+            <li>
+                <a href="en/Testimonials">Testimonials</a>
+            </li>
+            <li>
+                <a href="en/Blogs">Blog</a>
+            </li>
+            <li>
+                <a href="en/Career">Career </a>
+            </li>
+            <li>
+                <a href="en/Contact">Contact Us</a>
+            </li>
+
+            <li class="arabic">
+                <a href="ar/Service/custom-websites">عربي </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="sm-q">Get a Quote</a>
+            </li>
+
+        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light yamm" id="slide-nav">
+            <a class="navbar-brand" href="">
+
+                <div class="logo-white">
+
+                    <div class="logo-color">
+                        <img src="images/common/zoserpng_adobespark.png?w=350" alt="Zoser Logo">
+                    </div>
+                    <img src="images/common/zoserpng_adobespark.png?w=350" alt="Zoser Logo">
+                </div>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav  arrow-fix-top cl-effect-1 w-100" id="demo-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/About">About Us</a>
+                    </li>
+
+                    <li class="dropdown yamm-fw nav-item arrow-down ">
+                        <a class="nav-link" href="en/Services">  Services  </a>
+                            <ul class="dropdown-menu animated fadeInDown">
+                                <li class="grid-menu">
+                                    <div class="row">
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/cloud-solutions">Cloud Solutions</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Service/cloud-migration-consultation">Cloud Migration &amp; Consultation</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/devops-services">DevOps Services</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/business-automation-intelligence">Business Automation &amp; Intelligence</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/disaster-recovery">Disaster Recovery</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img src="uploads/images/aa.png" class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/software-development">Software Development</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Service/ticketing-solutions">Ticketing Solutions</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/school-management-system">School Management System</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/custom-software">Custom Software</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/system-integration">System Integration</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img src="uploads/images/bb.png" class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/website-solution">Website Solution</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Service/services-websites">Services Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/products-websites">Products Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/ecommerce-websites">Ecommerce Websites</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/custom-websites">Custom Websites</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/mobile-applications">Mobile Applications</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Service/services-applications">Services Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/products-applications">Products Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/ecommerce-applications">Ecommerce Applications</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/custom-applications">Custom Applications</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul>
+                                                    <li class="d-none">
+                                                        <img class="img-fluid" alt="" />
+                                                    </li>
+                                                    <li>
+                                                        <b><a href="en/Services/graphic-design">Graphic Design</a></b>
+                                                    </li>
+                                                        <li>
+                                                            <a href="en/Service/logo-designs">Logo Designs</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/corporate-stationery">Corporate Stationery</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/printing-designs">Printing Designs</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="en/Service/infographics">Infographics</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                    </li>
+                    <li class="dropdown  nav-item arrow-down">
+                        <a class="nav-link" href="en/Portfolio">Showcases </a>
+
+                        <ul class="dropdown-menu animated fadeInDown">
+                            <li class="">
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>
+                                                <b><a href="javascript:void(0);">Showcases</a></b>
+                                            </li>
+                                            <li>
+                                                <a href="en/Portfolio">Latest work</a>
+                                            </li>
+                                            <li>
+                                                <a href="en/CaseStudies">Case Studies</a>
+                                            </li>
+                                            <li>
+                                                <a href="en/Clients">Our Clients</a>
+                                            </li>
+                                            <li>
+                                                <a href="en/Partners">Our Partners</a>
+                                            </li>
+                                            <li>
+                                                <a href="en/Testimonials">Testimonials</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/Blogs">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/Career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en/Contact">Contact Us</a>
+                    </li>
+
+
+                   
+
+    
+
+        <div class="intertal-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="">
+                            <img src="images/common/zoserpng_adobespark.png" alt="Zoser Logo" class="mx-auto logo-footer  img-fluid">
+
+                        </a>
+                            <ul class="social-footer">
+                                    <li>
+                                        <a href="https://www.facebook.com/spark.systems" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/spark_systems" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/sparksystems/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/spark.systems/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+
+                            </ul>
+
+                        <ul class="links">
+                            <li>
+                                <a href="">home</a>
+                            </li>
+                            <li>
+                                <a href="en/About">about us</a>
+                            </li>
+                            <li>
+                                <a href="en/Services">services</a>
+                            </li>
+                            <li>
+                                <a href="en/Portfolio">latest work</a>
+                            </li>
+                            <li>
+                                <a href="en/CaseStudies">Case Studies</a>
+                            </li>
+                            <li>
+                                <a href="en/Clients">Our Clients</a>
+                            </li>
+                            <li>
+                                <a href="en/Partners">Our Partners</a>
+                            </li>
+                            <li>
+                                <a href="en/Testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="en/Blogs">blog</a>
+                            </li>
+                            <li>
+                                <a href="en/Contact">contact us</a>
+                            </li>
+                            <li>
+                                <a href="en/Career">career</a>
+                            </li>
+                        </ul>
+                        <p>© 2020 - 2021 Zoser. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.5/dist/loadingoverlay.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfFsKgUAAAAAB7w3IGQ4tXsIi2xbHS9M_yYMVNj"></script>
+
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="lib/popper.js/dist/umd/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="lib/Microsoft.jQuery.Unobtrusive.Ajax/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="lib/holderjs/holder.js"></script>
+    <script src="lib/theia-sticky-sidebar/dist/theia-sticky-sidebar.min.js"></script>
+    <script src="lib/swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="lib/lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="lib/css3-animate-it/js/css3-animate-it.js"></script>
+    <script src="lib/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+    <script src="js/forkit.js"></script>
+    <script src="lib/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="lib/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/dynamics.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/jquery.unveil.js"></script>
+    <script src="lib/slick-1.8.1/slick/slick.js"></script>
+    <script src="lib/masonry/masonry.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/site.js"></script>
+
+    <script src="lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+</body>
+</html>
